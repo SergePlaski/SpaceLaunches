@@ -1,19 +1,18 @@
 header {
-  position: fixed;
-  top: 0;
-  width: 100%;
   height: 64px;
-  z-index: 100;
   display: grid;
-  align-items: center;
-
-  padding-inline: 1rem;
+  place-content: center;
+  z-index: 100;
+  text-transform: uppercase;
   font-family: 'Wormmbox', sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  text-transform: uppercase;
   background-color: var(--color-bg);
   border-bottom: 1px solid var(--color-border);
+}
+
+.header_container {
+  display: inline-block;
 }
 
 .header_title {
@@ -49,6 +48,7 @@ body[theme="light"] .header_subtitle h2 {
 }
 
 @media (prefers-color-scheme: light) {
+
   .header_title,
   .header_subtitle h2 {
     font-weight: 900;
@@ -56,7 +56,7 @@ body[theme="light"] .header_subtitle h2 {
 }
 
 /* old devices */
-@media (width < 390px) {
+@media (max-width: 390px) {
   .header_title {
     font-size: 1.1rem;
   }
@@ -75,14 +75,15 @@ body[theme="light"] .header_subtitle h2 {
   }
 }
 
-@media (width > 575px) {
+@media (min-width: 1024px) {
   header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     height: 72px;
-    padding-bottom: 2px;
-  }
-
-  .header_container {
+    padding: 0 2rem;
     justify-content: start;
+    text-align: initial;
   }
 
   .header_title {

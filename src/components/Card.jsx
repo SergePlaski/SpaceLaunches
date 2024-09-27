@@ -10,15 +10,15 @@ export function Card({ data }) {
 
   // Toggle the mission details when the card is clicked (mobile/tablet only)
   const toggleMissionDetails = () => {
-    // check if the screen is mobile
-    if (window.innerWidth < 769) {
+    // check if the screen is mobile/tablet
+    if (window.innerWidth < 1024) {
       setIsCardContentExpanded(prevState => !prevState);
     }
   };
 
   return (
     <div
-    className={`${styles.card} ${isCardContentExpanded ? styles.show_content_detail : ''}`}
+    className={`${styles.card}${isCardContentExpanded ? ` ${styles.show_content_detail}` : ''}`}
       style={{ backgroundImage: `url(${data.imgUrl})` }}
       onClick={toggleMissionDetails}
     >

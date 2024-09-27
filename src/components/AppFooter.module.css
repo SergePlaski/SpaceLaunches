@@ -39,8 +39,8 @@ footer {
 }
 
 body[theme="light"] footer {
-    line-height: 1.45;
-    font-weight: 600;
+  line-height: 1.45;
+  font-weight: 600;
 }
 
 @media (prefers-color-scheme: light) {
@@ -50,10 +50,11 @@ body[theme="light"] footer {
   }
 }
 
-@media (width > 575px) {
+@media (min-width: 768px) {
   footer {
     min-height: 36px;
   }
+
   .footer_container {
     flex-wrap: nowrap;
     padding-inline: 1rem;
