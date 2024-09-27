@@ -1,0 +1,24 @@
+.countdown__container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* dd hh mm ss */
+.countdown__container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.15;
+}
+
+.countdown__value {
+  font-size: 0.95rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.countdown__label {
+  font-size: 0.75rem;
+  font-weight: 400;
+}

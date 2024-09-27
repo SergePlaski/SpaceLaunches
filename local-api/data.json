@@ -1,0 +1,142 @@
+{
+  "launches": [
+    {
+      "launchId": "7595",
+      "title": "Vulcan VC2S | Certification Flight 2",
+      "date": "Fri Oct 04, 2024 10:00 UTC",
+      "location": "SLC-41, Cape Canaveral SFS, Florida, USA",
+      "operator": "ULA",
+      "imgUrl": "https://storage.googleapis.com/nextspaceflight/media/rockets-thumb/Vulcan_VC2S.webp",
+      "mission": [
+        "Replacement Vulcan test launch with inert payload, experiments, and demonstrations for certification with the USSF after delays caused by payload testing of the Sierra Space Dreamchaser CRS SNC-1 mission, the original planned payload."
+      ],
+      "specs": []
+    },
+    {
+      "launchId": "2657",
+      "title": "Falcon 9 Block 5 | Hera",
+      "date": "Mon Oct 07, 2024 14:52 UTC",
+      "location": "SLC-40, Cape Canaveral SFS, Florida, USA",
+      "operator": "SpaceX",
+      "imgUrl": "https://storage.googleapis.com/nextspaceflight/media/rockets-thumb/Falcon_9_Block_5.webp",
+      "mission": [
+        "Hera is a space mission of the European Space Agency whose objective is to validate the kinetic impact method to deflect a possible asteroid circulating on a collision course with the Earth. The satellite will study the results obtained by the DART impactor developed by NASA which successfully crashed into the Dimorphos asteroid in September 2022."
+      ],
+      "specs": [
+        "Payloads: 1",
+        "Total Mass: 870.0 kg",
+        "Heliocentric Orbit"
+      ]
+    },
+    {
+      "launchId": "6818",
+      "title": "Falcon Heavy | Europa Clipper",
+      "date": "Thu Oct 10, 2024 16:31 UTC",
+      "location": "LC-39A, Kennedy Space Center, Florida, USA",
+      "operator": "SpaceX",
+      "imgUrl": "https://storage.googleapis.com/nextspaceflight/media/rockets-thumb/Falcon%20Heavy%20Block%205.webp",
+      "mission": [
+        "Europa Clipper will conduct a detailed survey of Europa and use a sophisticated suite of science instruments to investigate whether the icy moon has conditions suitable for life. Key mission objectives are to produce high-resolution images of Europa's surface, determine its composition, look for signs of recent or ongoing geological activity, measure the thickness of the moon’s icy shell, search for subsurface lakes, and determine the depth and salinity of Europa's ocean."
+      ],
+      "specs": [
+        "Payloads: 1",
+        "Total Mass: 6,065.0 kg",
+        "Heliocentric Orbit"
+      ]
+    },
+    {
+      "launchId": "5054",
+      "title": "Vulcan Centaur | USSF-106",
+      "date": "NET October, 2024",
+      "location": "SLC-41, Cape Canaveral SFS, Florida, USA",
+      "operator": "ULA",
+      "imgUrl": "https://storage.googleapis.com/nextspaceflight/media/rockets-thumb/Vulcan_Centaur.webp",
+      "mission": [
+        "NTS-3 (Navigation Technology Satellite 3) is a demonstration navigation satellite. NTS-3 will experiment with a new digital signal generator that can be reprogrammed on-orbit, enabling it to broadcast new signals, improve performance by avoiding and defeating interference, and adding signatures for detecting spoofing attacks.",
+        "NTS-3 will be the aft payload on the USSF-106 mission."
+      ],
+      "specs": [
+        "Payloads: 1",
+        "Total Mass: 1,250.0 kg",
+        "Geosynchronous Orbit"
+      ]
+    },
+    {
+      "launchId": "6913",
+      "title": "Falcon 9 Block 5 | CRS SpX-31",
+      "date": "NET October, 2024",
+      "location": "SLC-40, Cape Canaveral SFS, Florida, USA",
+      "operator": "SpaceX",
+      "imgUrl": "https://storage.googleapis.com/nextspaceflight/media/rockets-thumb/Falcon_9_Block_5.webp",
+      "mission": [
+        "SpaceX CRS-31 is a Commercial Resupply Service mission to the International Space Station. The mission is contracted by NASA and will be flown by SpaceX using a Cargo Dragon."
+      ],
+      "specs": [
+        "Payloads: 1",
+        "Low Earth Orbit"
+      ]
+    },
+    {
+      "launchId": "7215",
+      "title": "Falcon 9 Block 5 | Koreasat 6A",
+      "date": "NET October, 2024",
+      "location": "SLC-40, Cape Canaveral SFS, Florida, USA",
+      "operator": "SpaceX",
+      "imgUrl": "https://storage.googleapis.com/nextspaceflight/media/rockets-thumb/Falcon_9_Block_5.webp",
+      "mission": [
+        "The Koreasat 6A spacecraft, built by Thales Alenia Space, will have 20 transponders for fixed satellite services and six for TV broadcasting to replace the Koreasat 6 launched in 2010.",
+        "Koreasat 6A will be based on the manufacturer’s Spacebus 4000B2 platform and is expected to weigh about 3.5 metric tons at launch. It will be designed to operate for at least 15 years."
+      ],
+      "specs": [
+        "Payloads: 1",
+        "Total Mass: 3,500.0 kg",
+        "Geostationary Transfer Orbit"
+      ]
+    },
+    {
+      "launchId": "7606",
+      "title": "Falcon 9 Block 5 | SXM-9",
+      "date": "NET October, 2024",
+      "location": "SLC-40 or LC-39A, Florida, USA",
+      "operator": "SpaceX",
+      "imgUrl": "https://storage.googleapis.com/nextspaceflight/media/rockets-thumb/Falcon_9_Block_5.webp",
+      "mission": [
+        "SXM-9 is the 10th high-powered, digital, audio radio satellite built by Maxar (SSL) for SiriusXM. The SXM-9 satellite will be based on Maxar’s proven 1300-class platform and built at the company’s manufacturing facility in Palo Alto, California. It is expected that SXM-9 will launch in 2024.  SXM-9 has a large, mesh, unfurlable reflector almost 10 meters in diameter that allows SiriusXM programming to reach its radios, including those in moving vehicles."
+      ],
+      "specs": [
+        "Payloads: 1",
+        "Geostationary Transfer Orbit"
+      ]
+    },
+    {
+      "launchId": "6794",
+      "title": "Falcon 9 Block 5 | Blue Ghost Mission 1",
+      "date": "NET November, 2024",
+      "location": "SLC-40 or LC-39A, Florida, USA",
+      "operator": "SpaceX",
+      "imgUrl": "https://storage.googleapis.com/nextspaceflight/media/rockets-thumb/Falcon_9_Block_5.webp",
+      "mission": [
+        "Blue Ghost is a commercial lunar lander developed by Firefly Aerospace for NASA’s CLPS program. Blue Ghost is designed to bring up to 155kg of payload to the lunar surface. It will land at Mare Crisium in the Crisium Basin and is designed to last 14 days before freezing in the lunar night."
+      ],
+      "specs": [
+        "Trans Lunar Injection"
+      ]
+    },
+    {
+      "launchId": "6948",
+      "title": "Falcon 9 Block 5 | WorldView Legion 5 & 6",
+      "date": "NET November, 2024",
+      "location": "SLC-40 or LC-39A, Florida, USA",
+      "operator": "SpaceX",
+      "imgUrl": "https://storage.googleapis.com/nextspaceflight/media/rockets-thumb/Falcon_9_Block_5.webp",
+      "mission": [
+        "Currently being built by SSL, WorldView-Legion is DigitalGlobe's next generation of earth observation satellites."
+      ],
+      "specs": [
+        "Payloads: 2",
+        "Total Mass: 1,500.0 kg",
+        "Low Earth Orbit"
+      ]
+    }
+  ]
+}

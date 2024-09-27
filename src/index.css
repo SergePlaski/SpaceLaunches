@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Wormbox';
+  src: url('../public/fonts/wormbox_rounded.ttf') format('truetype');
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: dark light;
+
+  --card-border: 1px solid rgba(128, 128, 128, 0.5);
+  --color-border: rgb(102 102 119 / 50%);
+  --color-dark-theme-bg: #242424;
+  --color-dark-theme-text: #eee;
+  --color-light-theme-bg: #f3f5fc;
+  --color-light-theme-text: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+/* default color scheme: dark */
+body {
+  --color-bg: var(--color-dark-theme-bg);
+  --color-text: var(--color-dark-theme-text);
+
+  min-height: 100vh;
+  min-height: 100dvh;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+body[theme="light"] {
+  --color-bg: var(--color-light-theme-bg);
+  --color-text: var(--color-light-theme-text);
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+a,
+a:focus,
+a:active,
+a:visited {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    --color-bg: var(--color-light-theme-bg);
+    --color-text: var(--color-light-theme-text);
+  }
+}
+
+@media (width > 575px) {
+  body,
+  html {
+    overflow: hidden;
+  }
+  
+  .app-container {
+    height: 100vh;
+    height: 100dvh;
+  }
+}

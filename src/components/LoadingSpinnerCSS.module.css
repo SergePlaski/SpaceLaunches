@@ -1,0 +1,73 @@
+.loader__container {
+  position: fixed;
+  inset: 0;
+  z-index: 998;
+  pointer-events: none;
+}
+
+.spinner {
+  /* width: 100%; */
+  --color-spinner: #d9def1;
+  pointer-events: none;
+}
+
+/*** light theme ***/
+body[theme="light"] .spinner {
+  --color-spinner: #a9b2d4;
+}
+
+@media (prefers-color-scheme: light) {
+  .spinner {
+    --color-spinner: #a9b2d4;
+  }
+}
+
+.spinner::before,
+.spinner::after {
+  content: "";
+  z-index: 999;
+  width: 140px;
+  height: 140px;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  border: 20px solid transparent;
+  border-bottom-color: var(--color-spinner);
+}
+
+.spinner::before {
+  /* animation: spin infinite 2.5s ease-in-out; */
+  animation: spin infinite 1s ease-in-out;
+}
+
+.spinner::after {
+  /* animation: spin infinite 1.25s ease-in; */
+  animation: spin infinite 0.75s ease-in;
+}
+
+.loader_message {
+  position: absolute;
+  top: calc(40% + 120px);
+  width: 100%;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: Orbitron, sans-serif;
+  letter-spacing: 0.035ch;
+}
+
+.dot {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.invisible {
+  color: transparent;
+}
+
+@keyframes spin {
+  to {
+    rotate: 360deg;
+  }
+}
