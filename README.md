@@ -20,8 +20,8 @@ There are two scripts available locally:
 - local-api: runs json-server with data.json directly;
 - local-api-delayed: runs localserver.js that implements a middleware for json-server with a delayed output. This script emulates a slow remote API response to test the data loading behavior.
 
-## TODOs and Future Development
+## TODOs / Ideas for Future Development
 
-1. Fix the header positioning @ mobile resolutions
-2. Error/No Data modal message
-3. I might consider rebuilding this app using Next.js or React Native if I don't come across more interesing new ideas, of course ;-)
+1. Error/No Data modal messages.
+2. Add a drawer components with some "About" info + links currently in footer.
+3. Consider rebuilding this app using Next.js + React Native - if I don't come across more interesing new ideas, of course ;-)
