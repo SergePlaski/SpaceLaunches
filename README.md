@@ -23,5 +23,5 @@ There are two scripts available locally:
 ## TODOs / Ideas for Future Development
 
 1. Error/No Data modal messages.
-2. Add a drawer components with some "About" info + links currently in footer.
-3. Consider rebuilding this app using Next.js + React Native - if I don't come across more interesing new ideas, of course ;-)
+2. Add a % loading indicator.
+3. Add a drawer components with some "About" info + links currently in footer.
