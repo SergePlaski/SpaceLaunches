@@ -10,7 +10,6 @@ export function LoadingSpinnerCSS() {
   const [dots, setDots] = useState(3);
 
   useEffect(() => {
-    console.log("DEBUG LoadingRocket -- in effect");
     const interval = setInterval(
       () => setDots(prevDots => setDots(prevDots < 3 ? prevDots + 1 : 0)),
       300

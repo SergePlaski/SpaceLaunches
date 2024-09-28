@@ -23,7 +23,7 @@ const middlewares = jsonServer.defaults();
 // eslint-disable-next-line no-undef
 const DELAY = process.env.DELAY ? parseInt(process.env.DELAY, 10) : 2000;
 // eslint-disable-next-line no-undef
-const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 8080;
+const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 5000;
 
 // Add delay middleware
 server.use((req, res, next) => {

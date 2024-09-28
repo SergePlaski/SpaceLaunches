@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
+    "preview": "vite preview --mode production",
     "local-api": "json-server --port 8080 local-api/data.json",
     "local-api-delayed": "node ./local-api/server.js"
   },

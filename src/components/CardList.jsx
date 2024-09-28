@@ -12,7 +12,7 @@ function CardList() {
   const [isLoading, setIsLoading] = useState(true);
   const [nextScheduledLaunchIndex, setNextScheduledLaunchIndex] = useState();
 
-  const url = `${import.meta.env.VITE_API}?_limit=9`;
+  const url = import.meta.env.VITE_API;
 
   // Fetching external data is a side effect and should be handled using useEffect()
   useEffect(() => {
@@ -45,7 +45,7 @@ function CardList() {
         )
       )
       .then(() => {
-        console.log("Data loaded.");
+        console.log("Data has been loaded.");
         setIsLoading(false);
       })
       .catch(e => {
