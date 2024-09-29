@@ -8,7 +8,9 @@ Inspired by this, I thought it would be a fun weekend project to build an app th
 
 The app is built using React/vite and hosted on Vercel. For this project, I did all the development in Cursor IDE to try it out. I have to say, I’m pretty impressed. It’s very similar to VS Code but comes with basic yet helpful and non-intrusive AI helper right out of the box.
 
-## About the Data and Back-End
+![Application screenshot](public/screenshot_desktop.jpg)
+
+## The Data and Back-End
 
 To the best of my knowledge, neither NASA nor the KSC offer space mission data in an easily consumable format like an API or a RSS feed. Instead, I had to rely on the data provided by NASASpaceflight LLC, which is available for non-commercial use. However, due to CORS limitations, this data cannot be fetched directly client-side. To fetch and parse that data, I am using an API/proxy service I have built with Node.js/Express.js. I use it exclusively for development/testing and educational/non-commercial projects. It uses JSDOM library to parse the HTML as needed.
 
