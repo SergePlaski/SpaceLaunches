@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Card } from "./Card";
-// import { LoadingRocket } from "./LoadingRocket";
+import { ErrorPage } from "./ErrorPage";
 import { LoadingSpinnerCSS } from "./LoadingSpinnerCSS";
 
 import { isValidDateTime } from "../lib/dates";
@@ -52,8 +52,6 @@ function CardList() {
         if (e.name === "AbortError") return;
         setIsLoading(false);
         setIsError(true);
-        // TEMP
-        // console.log({data, isLoading, isError, nextScheduledLaunchIndex});
       })
       .finally(() => {
         if (controller.signal.aborted) return;
@@ -66,13 +64,15 @@ function CardList() {
     };
   }, [url]);
 
-
   const renderContent = () => {
     return (
       <div className={styles.cards_container}>
         <div className={styles.cards_wrapper}>
           {isError ? (
-            <h1>Error loading data</h1>
+            <ErrorPage
+              title="Error loading data."
+              message="Don't panic, check your oxygen level, and return to the base."
+            />
           ) : isLoading ? (
             <LoadingSpinnerCSS />
           ) : data?.length > 0 ? (
@@ -87,7 +87,10 @@ function CardList() {
               />
             ))
           ) : (
-            <h1>No data loaded</h1>
+            <ErrorPage
+              title="No data found."
+              message="Try later or return to the base."
+            />
           )}
         </div>
       </div>

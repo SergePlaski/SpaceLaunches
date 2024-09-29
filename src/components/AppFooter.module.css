@@ -50,7 +50,7 @@ body[theme="light"] footer {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   footer {
     min-height: 36px;
   }
