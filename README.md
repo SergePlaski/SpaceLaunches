@@ -22,6 +22,5 @@ There are two scripts available locally:
 
 ## TODOs / Ideas for Future Development
 
-1. Error/No Data modal messages.
-2. Add a % loading indicator.
-3. Add a drawer components with some "About" info + links currently in footer.
+1. Add a % loading indicator.
+2. Add a drawer components with some "About" info + links currently in footer.
