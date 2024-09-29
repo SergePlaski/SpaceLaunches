@@ -23,7 +23,8 @@ function CardList() {
     // initialize AbortController
     const controller = new AbortController();
 
-    console.log("Fetching data...", url);
+    // console.log("Fetching data...", url); // DEV only
+    console.log("Fetching data...");
     fetch(url, { signal: controller.signal })
       .then(res => {
         // unlike axios, status codes out of 200s range are not technically errors
