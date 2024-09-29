@@ -1,6 +1,7 @@
 {
   "name": "space-launches",
-  "private": true,
+  "description": "Upcoming space launches form Cape Canaveral and next mission countdown",
+  "private": false,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
